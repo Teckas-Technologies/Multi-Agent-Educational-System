@@ -1,0 +1,23 @@
+{
+  "name": "MultiAgent-Educational-System",
+  "version": "0.0.3",
+  "description": "I generate learning questions and connect you with the right agent for answers. Need more questions? I’ll call the teacher. Have clarifications? Paste your question, and I’ll call the student to help!",
+  "category": "agent",
+  "tags": [],
+  "details": {
+    "agent": {
+      "defaults": {
+        "model": "llama-v3p1-70b-instruct",
+        "model_provider": "fireworks",
+        "model_temperature": 1.0,
+        "model_max_tokens": 16384
+      },
+      "welcome": {
+        "title": "MultiAgent Educational System: AI-Powered Learning Assistant",
+        "description": "I generate learning questions and connect you with the right agent for answers. Need more questions? I’ll call the teacher. Have clarifications? Paste your question, and I’ll call the student to help! For example: 'Generate 15 questions from mathematics' or 'Explain the topic about blockchain'."
+      }
+    }
+  },
+  "show_entry": true
+}
+
