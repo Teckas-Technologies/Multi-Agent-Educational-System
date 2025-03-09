@@ -1,0 +1,26 @@
+{
+    "category": "agent",
+    "namespace": "luna_grilka.near",
+    "name": "MultiAgent-Educational-System",
+    "version": "0.0.16",
+    "description": "I generate learning questions and connect you with the right agent for answers.",
+    "tags": [],
+    "details": {
+      "agent": {
+        "defaults": {
+          "model": "llama-v3p1-70b-instruct",
+          "inference_framework": "nearai",
+          "model_temperature": 1,
+          "model_max_tokens": 16384
+        },
+        "welcome": {
+          "title": "MultiAgent Educational System: AI-Powered Learning Assistant",
+          "description": "I generate learning questions and connect you with the Student agent for answers! For example: 'Generate 15 questions from mathematics'"
+        },
+        "framework": "agentkit"
+      },
+      "env_vars": {
+        "OPEN_API_KEY": "YOUR_OPEN_API_KEY"
+      }
+    }
+  }
