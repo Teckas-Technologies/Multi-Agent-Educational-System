@@ -1,0 +1,26 @@
+{
+  "category": "agent",
+  "namespace": "luna_grilka.near",
+  "name": "MultiAgent-Educational-System",
+  "version": "0.0.21",
+  "description": "Welcome to the Virtual Classroom! Learn with AI-powered Teacher and Student agents—answer questions, practice, and grow through dynamic learning!",
+  "tags": [],
+  "details": {
+    "agent": {
+      "defaults": {
+        "model": "llama-v3p1-70b-instruct",
+        "inference_framework": "nearai",
+        "model_temperature": 1,
+        "model_max_tokens": 16384
+      },
+      "welcome": {
+        "title": "MultiAgent Educational System: AI-Powered Learning Assistant",
+        "description": "Welcome to the Virtual Classroom! Learn with AI-powered Teacher and Student agents—answer questions, practice, and grow through dynamic learning!"
+      },
+      "framework": "agentkit"
+    },
+    "env_vars": {
+      "OPEN_API_KEY": "YOUR_OPEN_API_KEY"
+    }
+  }
+}
